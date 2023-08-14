@@ -11,7 +11,7 @@ describe('Testes da Aplicação', () => {
       .get('/')
       .end((err, res) => {
         res.should.have.status(200);
-        res.text.should.equal('Olá, Mundo!');
+        res.text.should.equal('Olá Mundo!');
         done();
       });
   });
